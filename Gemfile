@@ -43,7 +43,7 @@ group :development, :test do
   gem 'rspec-rails'
 
   # https://github.com/colszowka/simplecov
-  # gem 'simplecov'
+  gem 'simplecov'
 end
 
 group :development do

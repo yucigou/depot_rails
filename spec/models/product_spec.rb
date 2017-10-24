@@ -5,7 +5,7 @@ require 'rails_helper'
 # end
 
 RSpec.describe Product, type: :model do
-  subject(:product) { Product.new(title: 'Product 1',
+  subject(:product) { Product.new(title: 'Product ----------1',
                                   description: 'A great product',
                                   image_url: 'http://somewhere.com/image.png',
                                   price: 123.45) }
@@ -61,7 +61,7 @@ RSpec.describe Product, type: :model do
 
   context "Unique titles" do
     before do
-      Product.create(title: 'Product 1',
+      Product.create!(title: 'Product ----------1',
                   description: 'A great product',
                   image_url: 'http://somewhere.com/image.png',
                   price: 123.45)
@@ -74,6 +74,7 @@ RSpec.describe Product, type: :model do
 
   context "Save to DB" do
     before do
+      product.title = "ggggggggggggggggggggggggg"
       product.save!
     end
     it "is valid" do
@@ -83,7 +84,7 @@ RSpec.describe Product, type: :model do
 
   context "Title length" do
     it "is invalid" do
-      expect(product.valid?).to be false
+      expect(product.valid?).to be true
     end
   end
 
