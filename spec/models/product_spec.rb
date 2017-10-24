@@ -81,4 +81,10 @@ RSpec.describe Product, type: :model do
     end
   end
 
+  context "Title length" do
+    it "is invalid" do
+      expect(product.valid?).to be false
+    end
+  end
+
 end
