@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f79dec8d-cfca-4f4c-b39f-e0fc6a13561b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/.last_run.json" afterPath="$PROJECT_DIR$/coverage/.last_run.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/.resultset.json" afterPath="$PROJECT_DIR$/coverage/.resultset.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/index.html" afterPath="$PROJECT_DIR$/coverage/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/products_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/products_controller_spec.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,7 +31,7 @@
     <SUITE FILE_PATH="coverage/depot_rails@Product_Title_length_is_invalid__depot_rails.coverage" NAME="Product Title length is invalid: depot-rails Coverage Results" MODIFIED="1508855575266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot-rails" />
     <SUITE FILE_PATH="coverage/depot_rails@Product_Format_of_Image_URL_is_invalid__depot_rails.coverage" NAME="Product Format of Image URL is invalid: depot-rails Coverage Results" MODIFIED="1508853751252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot-rails" />
     <SUITE FILE_PATH="coverage/depot_rails@db_rollback__depot_rails.coverage" NAME="db:rollback: depot-rails Coverage Results" MODIFIED="1508842372252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot-rails" />
-    <SUITE FILE_PATH="coverage/depot_rails@ProductsController_GET__index_content_returns_http_success__depot_rails.coverage" NAME="ProductsController GET #index content returns http success: depot-rails Coverage Results" MODIFIED="1508857660687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot-rails" />
+    <SUITE FILE_PATH="coverage/depot_rails@ProductsController_GET__index_content_returns_http_success__depot_rails.coverage" NAME="ProductsController GET #index content returns http success: depot-rails Coverage Results" MODIFIED="1508857853045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot-rails" />
     <SUITE FILE_PATH="coverage/depot_rails@Product_small_price__depot_rails.coverage" NAME="Product small price: depot-rails Coverage Results" MODIFIED="1508853460431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot-rails" />
     <SUITE FILE_PATH="coverage/depot_rails@Product_Presence_of_Title_and_Description__depot_rails.coverage" NAME="Product Presence of Title and Description: depot-rails Coverage Results" MODIFIED="1508853575282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot-rails" />
     <SUITE FILE_PATH="coverage/depot_rails@db_migrate__depot_rails.coverage" NAME="db:migrate: depot-rails Coverage Results" MODIFIED="1508842416605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="depot-rails" />
@@ -83,8 +82,8 @@
       <file leaf-file-name="products_controller_spec.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/controllers/products_controller_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            <state relative-caret-position="396">
+              <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -542,7 +541,7 @@
       <option name="presentableId" value="Default" />
       <updated>1508841222361</updated>
       <workItem from="1508841223530" duration="11060000" />
-      <workItem from="1508855923033" duration="1788000" />
+      <workItem from="1508855923033" duration="1956000" />
     </task>
     <task id="LOCAL-00001" summary="Committed in RubyMiner">
       <created>1508843863775</created>
@@ -564,14 +563,14 @@
     <history-entry file="ProductsController_GET_#index_content_returns_http_success__depot-rails - 2017.10.24 at 16h 07m 43s.xml">
       <configuration name="ProductsController GET #index content returns http success: depot-rails" configurationId="RSpecRunConfigurationType" />
     </history-entry>
+    <history-entry file="ProductsController_GET_#index_content_returns_http_success__depot-rails - 2017.10.24 at 16h 10m 56s.xml">
+      <configuration name="ProductsController GET #index content returns http success: depot-rails" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
     <history-entry file="ProductsController_GET_#index_returns_http_success__depot-rails - 2017.10.24 at 15h 55m 55s.xml">
       <configuration name="ProductsController GET #index returns http success: depot-rails" configurationId="RSpecRunConfigurationType" />
     </history-entry>
     <history-entry file="ProductsController__depot-rails - 2017.10.24 at 16h 02m 40s.xml">
       <configuration name="ProductsController: depot-rails" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Run_spec_'product_spec'__depot-rails - 2017.10.24 at 15h 43m 11s.xml">
-      <configuration name="Run spec 'product_spec': depot-rails" configurationId="RSpecRunConfigurationType" />
     </history-entry>
     <history-entry file="Run_spec_'product_spec'__depot-rails - 2017.10.24 at 15h 44m 33s.xml">
       <configuration name="Run spec 'product_spec': depot-rails" configurationId="RSpecRunConfigurationType" />
@@ -587,7 +586,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12848000" />
+    <option name="totallyTimeSpent" value="13016000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="280" y="11" width="1617" height="1062" extended-state="6" />
@@ -892,8 +891,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/controllers/products_controller_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        <state relative-caret-position="396">
+          <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
           <folding />
         </state>
       </provider>

@@ -19,8 +19,8 @@ RSpec.describe ProductsController, type: :controller do
     end
     it "returns http success" do
       get :index
-      puts response.body
-      expect(response).to have_http_status(:success)
+      # puts response.body
+      expect(response.body.include? 'Product ----------1').to be true
     end
   end
 end
